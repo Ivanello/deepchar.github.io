@@ -18,7 +18,7 @@ Constrained by lack of parallel corpora, and inspired by similar approaches to t
 
 ### Benchmarks
 
-See the [benchmarks](/benchmarks) repo
+See the [deepchar/benchmarks](https://github.com/deepchar/benchmarks) repo
 
 ### Results
 
