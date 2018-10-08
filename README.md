@@ -12,8 +12,15 @@ Our baseline approach is to train **character-level sequence-to-sequence** model
 
 ### Transfer learning
 
-### Datasets and data generation
+### Datasets
+
+Constrained by lack of parallel corpora, and inspired by similar approaches to transliteration and other sequence-to-sequence tasks like grammar correction, we rely primarily on **data generation**.
 
 ### Benchmarks
 
+See the [benchmarks](/benchmarks) repo
+
+### Results
+
 ### References
+
