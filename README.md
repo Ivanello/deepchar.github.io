@@ -1,8 +1,8 @@
 # deepchar
 
-<img src="/favicon.ico" align="left"/> Transliteration with sequence-to-sequence models and transfer learning
+[github.com/deepchar](https://github.com/deepchar) *Transliteration with sequence-to-sequence models and transfer learning*
 
-[github.com/deepchar](https://github.com/deepchar)
+<img src="/favicon.ico" align="left"/>
 
 ### What is transliteration?
 
