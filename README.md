@@ -6,7 +6,7 @@
 
 ### What is transliteration?
 
-About half of the billions of internet users speak languages written in non-Latin alphabets, like Russian, Arabic, Chinese, Greek and Armenian.  Very often, they haphazardly use the Latin alphabet to write those languages.
+About half of the billions of internet users speak languages written in non-Latin alphabets, like Russian, Arabic, Hebrew, Chinese, Greek, Armenian and Hindi.  Very often, they haphazardly use the Latin alphabet to write those languages.
 
 `Привет`: `Privet`, `Privyet`, `Priwjet`, ...  
 `كيف حالك`: `kayf halk`, `keyf 7alek`, ...  
