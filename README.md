@@ -12,7 +12,9 @@ About half of the billions of internet users speak languages written in non-Lati
 `كيف حالك`: `kayf halk`, `keyf 7alek`, ...  
 `Բարև Ձեզ`: `Barev Dzez`, `Barew Dzez`, ...  
 
-So a growing share of user-generated text content is in these "Latinized" or "romanized" formats that are difficult to parse, search or even identify.  Transliteration is the task of automatically converting this content into the native canonical format.
+So a growing share of user-generated text content is in these "Latinized" or "romanized" formats that are difficult to parse, search or even identify.
+
+Transliteration is the task of automatically converting this content back into the native canonical format.
 
 `Aydpes aveli sirun e.`: `Այդպես ավելի սիրուն է:`
 
@@ -20,11 +22,15 @@ You can read more about what makes this problem non-trivial at [*Automatic trans
 
 ### Our approach
 
-Our baseline approach is to train **character-level sequence-to-sequence** models.  Besides our modification to character-level, [Fairseq](https://github.com/pytorch/fairseq) is standard modern reference implementation of sequence-to-sequence, developed primarily for machine *translation* but in principle applicable to a wide range of tasks with sequence input and sequence output
+Our baseline approach is to train **character-level sequence-to-sequence** models on generated data.
+
+Besides our modification to character-level, [Fairseq](https://github.com/pytorch/fairseq) is standard modern reference implementation of sequence-to-sequence, developed primarily for machine *translation* but in principle applicable to a wide range of tasks with sequence input and sequence output
 
 Fairseq was developed by Facebook AI Research on PyTorch, and  Fairseq models can be launched and scaled in production with [pytorch/translate](https://github.com/pytorch/translate).
 
 ### Transfer learning
+
+TODO
 
 ### Datasets
 
@@ -38,5 +44,8 @@ See the [deepchar/benchmarks](https://github.com/deepchar/benchmarks) repo
 
 ### Results
 
+TODO
 
 ### References
+
+TODO
