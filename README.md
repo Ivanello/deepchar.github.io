@@ -6,6 +6,8 @@
 
 <details><summary><strong>What is transliteration?</strong></summary>
 
+<p>
+
 About half of the billions of internet users speak languages written in non-Latin alphabets, like Russian, Arabic, Hebrew, Chinese, Greek, Armenian and Hindi.  Very often, they haphazardly use the Latin alphabet to write those languages.
 
 `Привет`: `Privet`, `Privyet`, `Priwjet`, ...  
@@ -19,6 +21,8 @@ Transliteration is the task of automatically converting this content back into t
 `Aydpes aveli sirun e.`: `Այդպես ավելի սիրուն է:`
 
 You can read more about what makes this problem non-trivial at [*Automatic transliteration with LSTM*](http://yerevann.github.io/2016/09/09/automatic-transliteration-with-lstm/) and [*Interpreting neurons in an LSTM network*](https://yerevann.github.io/2017/06/27/interpreting-neurons-in-an-LSTM-network/).
+
+</p>
 
 </details>
 
