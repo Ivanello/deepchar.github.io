@@ -1,5 +1,3 @@
 title: deepchar
 logo: https://deepchar.github.io/favicon.ico
 markdown: kramdown
-kramdown: 
-  parse_block_html: true
