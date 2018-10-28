@@ -20,6 +20,8 @@ Transliteration is the task of automatically converting this content back into t
 
 You can read more about what makes this problem non-trivial at [*Automatic transliteration with LSTM*](http://yerevann.github.io/2016/09/09/automatic-transliteration-with-lstm/) and [*Interpreting neurons in an LSTM network*](https://yerevann.github.io/2017/06/27/interpreting-neurons-in-an-LSTM-network/).
 
+Another flavour of this task is transliteration of named entities.  You can read more about that in [deepchar/entities](/entities).
+
 </details>
 
 ### Our approach
