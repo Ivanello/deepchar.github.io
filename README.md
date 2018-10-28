@@ -28,9 +28,9 @@ Another flavour of this task is transliteration of named entities.  You can read
 
 Our baseline approach is to train **character-level sequence-to-sequence** models on generated data.
 
-Besides our modification to character-level, [Fairseq](https://github.com/pytorch/fairseq) is standard modern reference implementation of sequence-to-sequence, developed primarily for machine *translation* but in principle applicable to a wide range of tasks with sequence input and sequence output
+Besides our modification to character-level, [Sockeye](https://github.com/awslabs/sockeye) and [Fairseq](https://github.com/pytorch/fairseq) are standard modern implementations of sequence-to-sequence, developed primarily for machine *translation* but in principle applicable to a wide range of tasks with sequence input and sequence output
 
-Fairseq was developed by Facebook AI Research on PyTorch, and  Fairseq models can be launched and scaled in production with [pytorch/translate](https://github.com/pytorch/translate).
+Sockeye was developed by AWS Labs on Apache MXNet, and Fairseq was developed by Facebook AI Research on PyTorch.  Fairseq models can be launched and scaled in production with [pytorch/translate](https://github.com/pytorch/translate).
 
 ### Transfer learning
 
