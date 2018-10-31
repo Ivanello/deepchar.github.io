@@ -8,15 +8,19 @@
 
 About half of the billions of internet users speak languages written in non-Latin alphabets, like Russian, Arabic, Persian, Hebrew, Chinese, Greek, Armenian, Hindi and Tamil.  Very often, they haphazardly use the Latin alphabet to write those languages.
 
-`Привет`: `Privet`, `Privyet`, `Priwjet`, ...  
-`كيف حالك`: `kayf halk`, `keyf 7alek`, ...  
-`Բարև Ձեզ`: `Barev Dzez`, `Barew Dzez`, ...  
+`Привет` => `Privet` , `Privyet`, `Priwjet`, ...  
+`كيف حالك` => `kayf halk`, `keyf 7alek`, ...  
+`Բարև Ձեզ` => `Barev Dzez`, `Barew Dzez`, ...  
 
 So a growing share of user-generated text content is in these "Latinized" or "romanized" formats known as *translit*, *arabizi*, *Greeklish* and so on that are difficult to parse, search or even identify.
 
 Transliteration is the task of automatically converting this content back into the native canonical format.
 
-`Aydpes aveli sirun e.`: `Այդպես ավելի սիրուն է:`
+`Privet` => `Привет`,  
+`Privyet` => `Привет`,  
+`Priwjet` => `Привет`,  
+...
+`Aydpes aveli sirun e.` => `Այդպես ավելի սիրուն է:`
 
 You can read more about what makes this problem non-trivial at [*Automatic transliteration with LSTM*](http://yerevann.github.io/2016/09/09/automatic-transliteration-with-lstm/) and [*Interpreting neurons in an LSTM network*](https://yerevann.github.io/2017/06/27/interpreting-neurons-in-an-LSTM-network/).
 
