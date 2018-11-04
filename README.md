@@ -50,9 +50,17 @@ Training universal or languageless models requires only a change in datasets or 
 
 Read more about the results of transfer learning in **Benchmarks**.
 
+#### Semi-supervised learning
+
+The transliteration problem is characterised by near total lack of parallel data from the real world.  Data generation techniques give us great baseline results, but are skewed from real-world data in obvious and subtle ways.
+
+Can we use *unlabelled* real-world source-side data to generate more realistic parallel data?  Can we use *unlabelled* target-side data to train better models?
+
 #### Adversarial learning
 
+In adversarial learning, the training essentially asks to see the output for specific inputs.  Intuition tells us that learning a good transliteration model should actually require very few examples *if they are the right examples*, especially if we have unlabelled data.
 
+Can we train good models on a greatly reduced dataset?  Can we reduce the dataset more optimally?  Can we reduce the dataset even more if we let the model choose to see examples dynamically during training?
 
 ### Datasets
 
