@@ -80,15 +80,14 @@ TODO
 
 Sockeye
 
-> Felix Hieber, Tobias Domhan, Michael Denkowski, David Vilar, Artem Sokolov, Ann Clifton and Matt Post. 2017.
-> [Sockeye: A Toolkit for Neural Machine Translation](https://arxiv.org/abs/1712.05690). ArXiv e-prints.
+> *Sockeye: A Toolkit for Neural Machine Translation* 2017/2018 [arXiv](https://arxiv.org/abs/1712.05690)  
+> Felix Hieber, Tobias Domhan, Michael Denkowski, David Vilar, Artem Sokolov, Ann Clifton and Matt Post  
+> Amazon Web Services Labs
 
 Fairseq
 
-> @inproceedings{gehring2017convs2s,
->  author    = {Gehring, Jonas, and Auli, Michael and Grangier, David and Yarats, Denis and Dauphin, Yann N},
->  title     = "{Convolutional Sequence to Sequence Learning}",
->  booktitle = {Proc. of ICML},
->  year      = 2017,
-> }
+> *Convolutional Sequence to Sequence Learning* [arXiv](https://arxiv.org/abs/1705.03122)  
+> Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin
+> Facebook AI Research
 
+See repos like *deepchar/entities* for more specific references
