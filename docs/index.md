@@ -1,6 +1,6 @@
 ### How to train a baseline model with Sockeye
 
-Create a directory `data/` and put parallel files for training (`hy-Latn.txt`, `hy.txt`) and validation (`hy-Latn.val.txt`, `hy.val.txt`).  We start with 100K training examples and 100 validation examples.
+Create a directory `data/` and put parallel files for training ([`hy-Latn.txt`](hy-Latn.txt), [`hy.txt`](hy.txt) and validation  ([`hy-Latn.val.txt`](hy-Latn.val.txt), [`hy.val.txt`](hy.val.txt).  We start with 100K training examples and 100 validation examples.
 
 ```
 pip install sockeye
@@ -17,4 +17,5 @@ python -m sockeye.train --use-cpu \
 
 This will take 15 hours or so.
 
-See also: [https://aws.amazon.com/de/blogs/machine-learning/train-neural-machine-translation-models-with-sockeye/](https://aws.amazon.com/de/blogs/machine-learning/train-neural-machine-translation-models-with-sockeye/)
+See also: [Train Neural Machine Translation Models with Sockeye
+ | AWS Machine Learning Blog](https://aws.amazon.com/de/blogs/machine-learning/train-neural-machine-translation-models-with-sockeye/)
