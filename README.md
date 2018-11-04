@@ -36,9 +36,23 @@ Besides our modification to character-level, [Sockeye](https://github.com/awslab
 
 Sockeye was developed by AWS Labs on Apache MXNet, and Fairseq was developed by Facebook AI Research on PyTorch.  Fairseq models can be launched and scaled in production with [pytorch/translate](https://github.com/pytorch/translate).
 
-### Transfer learning
+#### Transfer learning
 
-TODO
+Universal or languageless models can solve numerous problems when scaling to hundreds of languages.
+
+From a research perspective, many difficult aspects of the transliteration task - ambiguity, named entities, long-distance dependencies - are similar between two or more languages, so accuracy can be improved for many languages, especially smaller languages.
+
+From an engineering perspective, accuracy held equal, it is more practical to launch one model per target language or even one model for all languages, 
+
+From a product perspective, it is also ideal, because in the real world the data even from the same user contains multiple languages.
+
+Training universal or languageless models requires only a change in datasets or data generation, and more computing power to train each model, but no fundamental change in the neural network architecture.
+
+Read more about the results of transfer learning in **Benchmarks**.
+
+#### Adversarial learning
+
+
 
 ### Datasets
 
