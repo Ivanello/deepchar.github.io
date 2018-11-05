@@ -90,4 +90,4 @@ Fairseq
 > Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin
 > Facebook AI Research
 
-See repos like *deepchar/entities* for more specific references
+See repos like [deepchar/entities](https://github.com/deepchar/entities) for more specific references
