@@ -87,7 +87,7 @@ Sockeye
 Fairseq
 
 > *Convolutional Sequence to Sequence Learning* [arXiv](https://arxiv.org/abs/1705.03122)  
-> Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin
+> Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin  
 > Facebook AI Research
 
 See repos like [deepchar/entities](https://github.com/deepchar/entities) for more specific references
