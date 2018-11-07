@@ -6,19 +6,20 @@
 
 <details><summary><strong>About transliteration</strong></summary>
 
-About half of the billions of internet users speak languages written in non-Latin alphabets, like Russian, Arabic, Persian, Hebrew, Chinese, Greek, Armenian, Hindi and Tamil.  Very often, they haphazardly use the Latin alphabet to write those languages.
+About half of the billions of internet users speak languages written in non-Latin alphabets, like Russian, Arabic, Persian, Hebrew, Chinese, Korean, Japanese, Greek, Armenian, Georgian, Mongolian, Hindi and Tamil.  Very often, they haphazardly use the Latin alphabet to write those languages.
 
 `Привет` => `Privet` , `Privyet`, `Priwjet`, ...  
 `كيف حالك` => `kayf halk`, `keyf 7alek`, ...  
 `Բարև Ձեզ` => `Barev Dzez`, `Barew Dzez`, ...  
+`ხაჭაპური` => `xachapuri`, ...
 
 So a growing share of user-generated text content is in these "Latinized" or "romanized" formats known as *translit*, *arabizi*, *Greeklish* and so on that are difficult to parse, search or even identify.
 
 Transliteration is the task of automatically converting this content back into the native canonical format.
 
-`Privet` => `Привет`,  
-`Privyet` => `Привет`,  
-`Priwjet` => `Привет`,  
+`Privet` => `Привет`    
+`Privyet` => `Привет`    
+`Priwjet` => `Привет`  
 ...
 `Aydpes aveli sirun e.` => `Այդպես ավելի սիրուն է:`
 
