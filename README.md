@@ -27,6 +27,8 @@ You can read more about what makes this problem non-trivial at [*Automatic trans
 
 Another flavour of this task is transliteration of named entities.  You can read more about that in [deepchar/entities](/entities).
 
+Transliteration can be seen as a special case of translation - for example between Serbian and Croatian, or Hindi and Urdu - or style transfer.
+
 </details>
 
 ### Our approach
