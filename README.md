@@ -25,7 +25,11 @@ Transliteration is the task of automatically converting this content back into t
 
 You can read more about what makes this problem non-trivial at [*Automatic transliteration with LSTM*](http://yerevann.github.io/2016/09/09/automatic-transliteration-with-lstm/) and [*Interpreting neurons in an LSTM network*](https://yerevann.github.io/2017/06/27/interpreting-neurons-in-an-LSTM-network/).
 
-Transliteration can be seen as a special case of *translation*, *style transfer* or *spelling correction*.  Therefore deepchar can be used for tasks like translation between Serbian and Croatian or Hindi and Urdu, applying British style to American English or diacritic restoration.
+Transliteration can be seen as a special case of *translation*, *style transfer* or *spelling correction*.
+
+Therefore deepchar can be used for tasks like translation between Serbian and Croatian or Hindi and Urdu, applying British style to American English.
+
+It can also be used for case correction, punctuation correction and inserting the non-ASCII characters or accent marks for all the languages written in the Latin alphabet - Spanish, French, Italian, German, Turkish and most others - that have non-ASCII characters.  (This task may be called *diacritic restoration*, but *ə*, *œ*, *ß* and *ı* are not diacritics.)
 
 Another flavour of this task is transliteration of named entities.  Instead of mapping many inputs to one output (n:1), it maps one input to many outputs (1:n).  You can read more about that in [deepchar/entities](/entities).
 
